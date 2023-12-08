@@ -1,0 +1,10 @@
+Challenge: Write a regex that matches blueberry or blackberry,
+but write berry precisely once. Test it with these strings:
+
+ans: /(blue|black)berry/
+
+
+blueberry
+blackberry
+black berry
+strawberry

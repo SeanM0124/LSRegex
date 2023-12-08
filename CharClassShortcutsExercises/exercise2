@@ -1,0 +1,12 @@
+Test the pattern /\s...\s/ from the previous exercise
+against this text (be sure to delete the previous text first):
+
+Observe that one of the three-letter words in this text match the pattern; it also matches 2 3. Why is it that this pattern doesn't include the three-letter words Doc, red, box, or Hup, but it does match 2 3?
+
+ans: Doc doesnt match since it doesnt follow whitespace. I assume it doesnt match red since the space prior to red is taken by big match. Box doesnt work since the char after it is not whitespace, same for Hup
+
+2 3 matches since whitespace falls under any char
+
+
+Doc in a big red box.
+Hup! 2 3 4

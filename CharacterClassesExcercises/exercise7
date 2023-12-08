@@ -1,0 +1,15 @@
+Are /(ABC|abc)/ and /[Aa][Bb][Cc]/ equivalent regex? If not, how do they differ? Can you provide an example of a string that would match one of these regex, but not the other?
+
+They are not equivalent. The first one will only match with either ABC or abc. The 2nd one will match with any variation of AbC, aBC, abc, aBc etc.
+
+test cases:
+
+abc
+AbC
+aBC
+ABC
+aac
+aab
+ababa
+aBC
+

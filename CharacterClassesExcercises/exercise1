@@ -1,0 +1,9 @@
+Write a regex that matches uppercase or lowercase Ks or a lowercase s.
+Test it with these strings:
+
+
+ans: /[Kks]/
+
+Kitchen Kaboodle
+Reds and blues
+kitchen Servers

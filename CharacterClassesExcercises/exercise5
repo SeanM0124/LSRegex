@@ -1,0 +1,3 @@
+Why is /[^xX]/ not a valid answer to the previous exercise?
+
+Because the problem specified matching of only letters that arent x, not anything that isnt x

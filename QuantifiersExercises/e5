@@ -1,0 +1,7 @@
+Modify your regex from the previous exercise so the URL can have optional leading or trailing whitespace, but is otherwise on a line by itself. To test your regex with trailing whitespace, you must add some spaces to the end of some lines in your sample text.
+
+ans: /^\s*(http:|https:)\/\/\S*\s*$/
+
+There should be three matches.
+
+ans:

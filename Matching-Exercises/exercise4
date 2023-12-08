@@ -1,0 +1,10 @@
+Write a regex that matches any of the following fruits: banana, orange, apple, strawberry. The fruits may appear in other words. Test it with these strings:
+
+ans: /(banana|orange|apple|strawberry)/
+
+banana
+orange
+pineapples
+strawberry
+raspberry
+grappler

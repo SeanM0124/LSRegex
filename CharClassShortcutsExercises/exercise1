@@ -1,0 +1,17 @@
+Write a regex that matches any sequence of three
+characters delimited by whitespace characters
+(the regex should match both the delimiting whitespace
+and the sequence of 3 characters). Test it with these
+strings:
+
+There should be three matches in Rubular, but only two in Scriptular. This difference is caused by how the two apps deal with newline characters.
+
+
+ans: \s...\s
+
+reds and blues
+the lazy cat sleeps
+
+
+
+

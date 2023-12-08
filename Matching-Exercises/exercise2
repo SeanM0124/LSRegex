@@ -1,0 +1,10 @@
+Write a regex that matches an uppercase or lowercase H.
+Test it with these strings:
+
+ans: /h/i or /(h\H)/
+
+
+
+Henry
+perch
+golf

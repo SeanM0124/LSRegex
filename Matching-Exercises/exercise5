@@ -1,0 +1,7 @@
+Write a regex that matches a comma or space. Test your regex with these strings:
+
+ans: /( |,)/
+
+This line has spaces
+This,line,has,commas,
+No-spaces-or-commas
